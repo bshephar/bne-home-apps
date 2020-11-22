@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: hass-data-pv
+spec:
+  capacity:
+    storage: 10Gi 
+  accessModes:
+  - ReadWriteOnce 
+  nfs: 
+    path: /openshift/hass
+    server: 192.168.1.7
+  persistentVolumeReclaimPolicy: Retain

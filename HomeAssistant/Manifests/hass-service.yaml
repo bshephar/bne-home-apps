@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  labels:
+    app: home-assistant
+  name: home-assistant-web
+  namespace: hass
+spec:
+  ports:
+  - port: 8123
+    name: hass-web
+    targetPort: 8123
+  selector:
+    app: home-assistant
