@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: bitwarden-pv
+  name: bitwarden
 spec:
   capacity:
     storage: 25Gi 
@@ -9,5 +9,5 @@ spec:
   - ReadWriteMany
   nfs: 
     path: /openshift/bitwarden/
-    server: 192.168.1.221
+    server: 192.168.1.7
   persistentVolumeReclaimPolicy: Retain
