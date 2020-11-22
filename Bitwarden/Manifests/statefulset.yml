@@ -60,7 +60,7 @@ spec:
       volumes:
       - name: bitwarden-pvc
         persistentVolumeClaim:
-          claimName: bitwarden-pvc
+          claimName: bitwarden-bitwarden-0
 #  volumeClaimTemplates:
 #  - metadata:
 #      name: data
