@@ -1,0 +1,19 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  labels:
+    app: tempmon
+  name: tempmon
+  namespace: monitoring
+spec:
+  endpoints:
+  - interval: 15s
+    port: temp-exporter
+    path: /metrics
+  jobLabel: app
+  namespaceSelector:
+    matchNames:
+    - homemon
+  selector:
+    matchLabels:
+      app: tempmon
