@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: temp-exporter
+spec:
+  selector:
+    app: tempmon
+  ports:
+    - name: go-exporter
+      protocol: TCP
+      port: 9100
+      targetPort: 9100
