@@ -1,7 +1,7 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: bitwaden-bitwarden-0
+  name: bitwarden-bitwarden-0
   namespace: bitwarden
 spec:
   accessModes:
