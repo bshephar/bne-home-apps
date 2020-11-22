@@ -1,0 +1,93 @@
+{
+  "apiVersion": "v1",
+  "items": [
+    {
+      "apiVersion": "v1",
+      "kind": "PersistentVolumeClaim",
+      "metadata": {
+        "annotations": {
+          "pv.kubernetes.io/bind-completed": "yes",
+          "pv.kubernetes.io/bound-by-controller": "yes"
+        },
+        "creationTimestamp": "2020-10-20T11:28:31Z",
+        "finalizers": [
+          "kubernetes.io/pvc-protection"
+        ],
+        "labels": {
+          "app": "bitwarden"
+        },
+        "managedFields": [
+          {
+            "apiVersion": "v1",
+            "fieldsType": "FieldsV1",
+            "fieldsV1": {
+              "f:metadata": {
+                "f:annotations": {
+                  ".": {},
+                  "f:pv.kubernetes.io/bind-completed": {},
+                  "f:pv.kubernetes.io/bound-by-controller": {}
+                },
+                "f:labels": {
+                  ".": {},
+                  "f:app": {}
+                }
+              },
+              "f:spec": {
+                "f:accessModes": {},
+                "f:resources": {
+                  "f:requests": {
+                    ".": {},
+                    "f:storage": {}
+                  }
+                },
+                "f:storageClassName": {},
+                "f:volumeMode": {},
+                "f:volumeName": {}
+              },
+              "f:status": {
+                "f:accessModes": {},
+                "f:capacity": {
+                  ".": {},
+                  "f:storage": {}
+                },
+                "f:phase": {}
+              }
+            },
+            "manager": "kube-controller-manager",
+            "operation": "Update",
+            "time": "2020-10-20T11:28:31Z"
+          }
+        ],
+        "name": "bitwarden-bitwarden-0",
+        "namespace": "bitwarden",
+        "resourceVersion": "106875",
+        "selfLink": "/api/v1/namespaces/bitwarden/persistentvolumeclaims/bitwarden-bitwarden-0",
+        "uid": "181bb5bf-b779-425c-9508-af932de152fe"
+      },
+      "spec": {
+        "accessModes": [
+          "ReadWriteMany"
+        ],
+        "resources": {
+          "requests": {
+            "storage": "20Gi"
+          }
+        },
+        "storageClassName": "",
+        "volumeMode": "Filesystem",
+        "volumeName": "bitwarden"
+      },
+      "status": {
+        "accessModes": [
+          "ReadWriteMany"
+        ],
+        "capacity": {
+          "storage": "25Gi"
+        },
+        "phase": "Bound"
+      }
+    }
+  ],
+  "kind": "List",
+  "metadata": {}
+}
