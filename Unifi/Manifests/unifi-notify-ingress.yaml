@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "12h"
+  name: unifi-notify-ingress
+  namespace: unifi
+spec:
+  rules:
+  - host: unifi-notify.k8s.bne-home.net
+    http:
+      paths:
+        - backend:
+            serviceName: unifi
+            servicePort: 8080
+          path: /
