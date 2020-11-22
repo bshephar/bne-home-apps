@@ -1,0 +1,20 @@
+
+apiVersion: v1
+kind: Service
+metadata:
+    name: unifi-controller-inform
+    annotations:
+        metallb.universe.tf/allow-shared-ip: "true"
+    namespace: unifi
+    labels:
+        app: unifi-controller
+spec:
+    type: NodePort
+    externalTrafficPolicy: Local
+    selector:
+        app: unifi-controller
+    ports:
+    - name: "internal-comms"
+      protocol: TCP
+      targetPort: 8080
+      port: 8080

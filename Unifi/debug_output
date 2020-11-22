@@ -1,0 +1,404 @@
+I0106 18:52:51.773045   79980 loader.go:359] Config loaded from file /Users/shep/.kube/config
+I0106 18:52:51.774412   79980 loader.go:359] Config loaded from file /Users/shep/.kube/config
+I0106 18:52:51.775260   79980 cached_discovery.go:113] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/servergroups.json
+I0106 18:52:51.776282   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authentication.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.776297   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/metrics.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.777620   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v2beta1/serverresources.json
+I0106 18:52:51.776389   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiregistration.k8s.io/v1/serverresources.json
+I0106 18:52:51.776301   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.k8s.io/v1/serverresources.json
+I0106 18:52:51.776710   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v2beta2/serverresources.json
+I0106 18:52:51.776728   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/events.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.776816   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v1/serverresources.json
+I0106 18:52:51.777078   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/extensions/v1beta1/serverresources.json
+I0106 18:52:51.777289   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.777321   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1/serverresources.json
+I0106 18:52:51.777390   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/image.openshift.io/v1/serverresources.json
+I0106 18:52:51.777308   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1beta2/serverresources.json
+I0106 18:52:51.777570   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1beta1/serverresources.json
+I0106 18:52:51.778594   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1alpha2/serverresources.json
+I0106 18:52:51.777574   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/project.openshift.io/v1/serverresources.json
+I0106 18:52:51.777603   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.openshift.io/v1/serverresources.json
+I0106 18:52:51.777648   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/batch/v1/serverresources.json
+I0106 18:52:51.777650   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/quota.openshift.io/v1/serverresources.json
+I0106 18:52:51.777733   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/route.openshift.io/v1/serverresources.json
+I0106 18:52:51.777769   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps.openshift.io/v1/serverresources.json
+I0106 18:52:51.777773   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/networking.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.777786   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/batch/v1beta1/serverresources.json
+I0106 18:52:51.777809   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/build.openshift.io/v1/serverresources.json
+I0106 18:52:51.777846   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/policy/v1beta1/serverresources.json
+I0106 18:52:51.777847   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/networking.k8s.io/v1/serverresources.json
+I0106 18:52:51.777863   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/oauth.openshift.io/v1/serverresources.json
+I0106 18:52:51.777901   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiextensions.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.777908   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/scheduling.k8s.io/v1/serverresources.json
+I0106 18:52:51.777946   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/packages.operators.coreos.com/v1/serverresources.json
+I0106 18:52:51.777959   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/certificates.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.777973   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operator.openshift.io/v1alpha1/serverresources.json
+I0106 18:52:51.777998   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/security.openshift.io/v1/serverresources.json
+I0106 18:52:51.778017   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling.openshift.io/v1/serverresources.json
+I0106 18:52:51.778036   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/rbac.authorization.k8s.io/v1/serverresources.json
+I0106 18:52:51.778062   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/rbac.authorization.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.778070   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/admissionregistration.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.778086   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/storage.k8s.io/v1/serverresources.json
+I0106 18:52:51.778094   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/coordination.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.778104   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/coordination.k8s.io/v1/serverresources.json
+I0106 18:52:51.778122   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling.openshift.io/v1beta1/serverresources.json
+I0106 18:52:51.778129   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/storage.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.778150   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/template.openshift.io/v1/serverresources.json
+I0106 18:52:51.778170   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/k8s.cni.cncf.io/v1/serverresources.json
+I0106 18:52:51.778171   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/imageregistry.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.778219   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/user.openshift.io/v1/serverresources.json
+I0106 18:52:51.778221   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/node.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.778248   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/ingress.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.778336   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/console.openshift.io/v1/serverresources.json
+I0106 18:52:51.778343   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/v1/serverresources.json
+I0106 18:52:51.778339   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/machineconfiguration.openshift.io/v1/serverresources.json
+I0106 18:52:51.778392   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/cloudcredential.openshift.io/v1/serverresources.json
+I0106 18:52:51.778442   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/config.openshift.io/v1/serverresources.json
+I0106 18:52:51.778449   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/scheduling.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.778571   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.778668   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v2/serverresources.json
+I0106 18:52:51.778698   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/mongodb.com/v1/serverresources.json
+I0106 18:52:51.778714   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/network.openshift.io/v1/serverresources.json
+I0106 18:52:51.778764   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1/serverresources.json
+I0106 18:52:51.778776   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/tuned.openshift.io/v1/serverresources.json
+I0106 18:52:51.778799   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/samples.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.778810   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/monitoring.coreos.com/v1/serverresources.json
+I0106 18:52:51.778856   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiregistration.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.778872   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authentication.k8s.io/v1/serverresources.json
+I0106 18:52:51.778881   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/metal3.io/v1alpha1/serverresources.json
+I0106 18:52:51.778897   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1alpha1/serverresources.json
+I0106 18:52:51.778992   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/healthchecking.openshift.io/v1alpha1/serverresources.json
+I0106 18:52:51.779031   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/machine.openshift.io/v1beta1/serverresources.json
+I0106 18:52:51.780809   79980 cached_discovery.go:113] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/servergroups.json
+I0106 18:52:51.781614   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authentication.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.781772   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v2beta2/serverresources.json
+I0106 18:52:51.781711   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/metrics.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.781723   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/coordination.k8s.io/v1/serverresources.json
+I0106 18:52:51.782128   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/rbac.authorization.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.781775   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operator.openshift.io/v1alpha1/serverresources.json
+I0106 18:52:51.782279   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/samples.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.781793   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/policy/v1beta1/serverresources.json
+I0106 18:52:51.781827   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling.openshift.io/v1/serverresources.json
+I0106 18:52:51.782342   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1alpha1/serverresources.json
+I0106 18:52:51.781835   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiregistration.k8s.io/v1/serverresources.json
+I0106 18:52:51.782365   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/healthchecking.openshift.io/v1alpha1/serverresources.json
+I0106 18:52:51.782373   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/machine.openshift.io/v1beta1/serverresources.json
+I0106 18:52:51.781839   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/events.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.781861   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/node.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.781890   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/coordination.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.782457   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.782468   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/config.openshift.io/v1/serverresources.json
+I0106 18:52:51.781896   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v2beta1/serverresources.json
+I0106 18:52:51.781911   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v1/serverresources.json
+I0106 18:52:51.781918   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/imageregistry.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.781943   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/batch/v1beta1/serverresources.json
+I0106 18:52:51.781946   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/cloudcredential.openshift.io/v1/serverresources.json
+I0106 18:52:51.781980   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiregistration.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.781980   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/storage.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.781988   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling.openshift.io/v1beta1/serverresources.json
+I0106 18:52:51.781991   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiextensions.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.781990   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/networking.k8s.io/v1/serverresources.json
+I0106 18:52:51.782001   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/ingress.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.782022   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/build.openshift.io/v1/serverresources.json
+I0106 18:52:51.782035   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/rbac.authorization.k8s.io/v1/serverresources.json
+I0106 18:52:51.782025   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/networking.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.782056   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.k8s.io/v1/serverresources.json
+I0106 18:52:51.782061   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps.openshift.io/v1/serverresources.json
+I0106 18:52:51.782063   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.782064   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/scheduling.k8s.io/v1/serverresources.json
+I0106 18:52:51.782073   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/extensions/v1beta1/serverresources.json
+I0106 18:52:51.782072   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/certificates.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.782081   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/storage.k8s.io/v1/serverresources.json
+I0106 18:52:51.782094   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/admissionregistration.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.782102   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1beta1/serverresources.json
+I0106 18:52:51.782115   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v2/serverresources.json
+I0106 18:52:51.782110   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/batch/v1/serverresources.json
+I0106 18:52:51.782122   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/monitoring.coreos.com/v1/serverresources.json
+I0106 18:52:51.782156   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1beta2/serverresources.json
+I0106 18:52:51.782180   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/quota.openshift.io/v1/serverresources.json
+I0106 18:52:51.782186   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/image.openshift.io/v1/serverresources.json
+I0106 18:52:51.782184   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1alpha2/serverresources.json
+I0106 18:52:51.782193   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1/serverresources.json
+I0106 18:52:51.782187   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.openshift.io/v1/serverresources.json
+I0106 18:52:51.782197   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/tuned.openshift.io/v1/serverresources.json
+I0106 18:52:51.782206   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/project.openshift.io/v1/serverresources.json
+I0106 18:52:51.782209   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/route.openshift.io/v1/serverresources.json
+I0106 18:52:51.782214   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/packages.operators.coreos.com/v1/serverresources.json
+I0106 18:52:51.782235   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/scheduling.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.782239   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/k8s.cni.cncf.io/v1/serverresources.json
+I0106 18:52:51.782245   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/security.openshift.io/v1/serverresources.json
+I0106 18:52:51.782250   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/oauth.openshift.io/v1/serverresources.json
+I0106 18:52:51.782254   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/v1/serverresources.json
+I0106 18:52:51.782276   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/metal3.io/v1alpha1/serverresources.json
+I0106 18:52:51.782285   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/console.openshift.io/v1/serverresources.json
+I0106 18:52:51.782280   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/template.openshift.io/v1/serverresources.json
+I0106 18:52:51.782297   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/network.openshift.io/v1/serverresources.json
+I0106 18:52:51.782309   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/user.openshift.io/v1/serverresources.json
+I0106 18:52:51.782310   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authentication.k8s.io/v1/serverresources.json
+I0106 18:52:51.782322   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1/serverresources.json
+I0106 18:52:51.782337   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/mongodb.com/v1/serverresources.json
+I0106 18:52:51.782387   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/machineconfiguration.openshift.io/v1/serverresources.json
+I0106 18:52:51.784820   79980 loader.go:359] Config loaded from file /Users/shep/.kube/config
+I0106 18:52:51.785141   79980 round_trippers.go:419] curl -k -v -XGET  -H "Accept: application/json, */*" -H "User-Agent: oc/v1.13.4+b4261e07ed (darwin/amd64) kubernetes/b4261e0" -H "Authorization: Bearer j6f9KSGI7pkcy6PYnZQ3zVeDE1V2QCuoHh6cEQSS1Hc" 'https://api.ocp4.bne-home.net:6443/api/v1/namespaces/unifi/pods/unifi-5bcbb76c94-n7l95'
+I0106 18:52:51.832523   79980 round_trippers.go:438] GET https://api.ocp4.bne-home.net:6443/api/v1/namespaces/unifi/pods/unifi-5bcbb76c94-n7l95 200 OK in 47 milliseconds
+I0106 18:52:51.832615   79980 round_trippers.go:444] Response Headers:
+I0106 18:52:51.832640   79980 round_trippers.go:447]     Content-Type: application/json
+I0106 18:52:51.832682   79980 round_trippers.go:447]     Content-Length: 3608
+I0106 18:52:51.832701   79980 round_trippers.go:447]     Date: Mon, 06 Jan 2020 08:52:51 GMT
+I0106 18:52:51.832726   79980 round_trippers.go:447]     Audit-Id: 82321b23-2566-468d-8fd5-92444962a2e2
+I0106 18:52:51.832744   79980 round_trippers.go:447]     Cache-Control: no-cache, private
+I0106 18:52:51.832855   79980 request.go:942] Response Body: {"kind":"Pod","apiVersion":"v1","metadata":{"name":"unifi-5bcbb76c94-n7l95","generateName":"unifi-5bcbb76c94-","namespace":"unifi","selfLink":"/api/v1/namespaces/unifi/pods/unifi-5bcbb76c94-n7l95","uid":"4e338122-2e7d-11ea-9d68-fa1a4a160104","resourceVersion":"2087941","creationTimestamp":"2020-01-03T23:03:50Z","labels":{"k8s-app":"unifi","pod-template-hash":"5bcbb76c94","version":"v0"},"annotations":{"k8s.v1.cni.cncf.io/networks-status":"[{\n    \"name\": \"openshift-sdn\",\n    \"interface\": \"eth0\",\n    \"ips\": [\n        \"10.254.2.69\"\n    ],\n    \"default\": true,\n    \"dns\": {}\n}]","openshift.io/scc":"anyuid"},"ownerReferences":[{"apiVersion":"apps/v1","kind":"ReplicaSet","name":"unifi-5bcbb76c94","uid":"65e4ce40-2e24-11ea-9d68-fa1a4a160104","controller":true,"blockOwnerDeletion":true}]},"spec":{"volumes":[{"name":"default-token-v8t4g","secret":{"secretName":"default-token-v8t4g","defaultMode":420}}],"containers":[{"name":"unifi","image":"linuxserver/unifi-controller","ports":[{"name":"ubnt-6789","containerPort":6789,"protocol":"TCP"},{"name":"ubnt-8080","containerPort":8080,"protocol":"TCP"},{"name":"ubnt-8443","containerPort":8443,"protocol":"TCP"},{"name":"ubnt-3478","containerPort":3478,"protocol":"UDP"},{"name":"ubnt-8881","containerPort":8881,"protocol":"TCP"},{"name":"ubnt-8882","containerPort":8882,"protocol":"TCP"},{"name":"ubnt-10001","containerPort":10001,"protocol":"UDP"}],"env":[{"name":"BASEDIR","value":"/usr/lib/unifi"},{"name":"DATADIR","value":"/var/lib/unifi"},{"name":"RUNDIR","value":"/var/run/unifi"},{"name":"LOGDIR","value":"/var/log/unifi"},{"name":"MEM_LIMIT","value":"1024M"},{"name":"PUID","value":"1000"},{"name":"PGID","value":"1000"}],"resources":{},"volumeMounts":[{"name":"default-token-v8t4g","readOnly":true,"mountPath":"/var/run/secrets/kubernetes.io/serviceaccount"}],"terminationMessagePath":"/dev/termination-log","terminationMessagePolicy":"File","imagePullPolicy":"Always","securityContext":{"capabilities":{"drop":["MKNOD"]}}}],"restartPolicy":"Always","terminationGracePeriodSeconds":30,"dnsPolicy":"ClusterFirst","serviceAccountName":"default","serviceAccount":"default","nodeName":"ocp-node01.ocp4.bne-home.net.0.40.172.in-addr.arpa","securityContext":{"seLinuxOptions":{"level":"s0:c23,c7"}},"imagePullSecrets":[{"name":"default-dockercfg-glqqj"}],"schedulerName":"default-scheduler","tolerations":[{"key":"node.kubernetes.io/not-ready","operator":"Exists","effect":"NoExecute","tolerationSeconds":300},{"key":"node.kubernetes.io/unreachable","operator":"Exists","effect":"NoExecute","tolerationSeconds":300}],"priority":0,"enableServiceLinks":true},"status":{"phase":"Running","conditions":[{"type":"Initialized","status":"True","lastProbeTime":null,"lastTransitionTime":"2020-01-03T23:03:50Z"},{"type":"Ready","status":"True","lastProbeTime":null,"lastTransitionTime":"2020-01-03T23:04:05Z"},{"type":"ContainersReady","status":"True","lastProbeTime":null,"lastTransitionTime":"2020-01-03T23:04:05Z"},{"type":"PodScheduled","status":"True","lastProbeTime":null,"lastTransitionTime":"2020-01-03T23:03:50Z"}],"hostIP":"172.40.0.45","podIP":"10.254.2.69","startTime":"2020-01-03T23:03:50Z","containerStatuses":[{"name":"unifi","state":{"running":{"startedAt":"2020-01-03T23:04:04Z"}},"lastState":{},"ready":true,"restartCount":0,"image":"docker.io/linuxserver/unifi-controller:latest","imageID":"docker.io/linuxserver/unifi-controller@sha256:3d5da0403fbe58abcb315eda62f5de3799f05d205a164861887b5748f9e233fb","containerID":"cri-o://85db103735396d900eb4ecd40694982e4e9c79898eece62af60cc552b7149289"}],"qosClass":"BestEffort"}}
+I0106 18:52:51.842275   79980 loader.go:359] Config loaded from file /Users/shep/.kube/config
+I0106 18:52:51.843980   79980 loader.go:359] Config loaded from file /Users/shep/.kube/config
+I0106 18:52:51.845866   79980 loader.go:359] Config loaded from file /Users/shep/.kube/config
+I0106 18:52:51.846377   79980 cached_discovery.go:113] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/servergroups.json
+I0106 18:52:51.846528   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/metrics.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.846657   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.openshift.io/v1/serverresources.json
+I0106 18:52:51.846865   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/batch/v1beta1/serverresources.json
+I0106 18:52:51.847205   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/build.openshift.io/v1/serverresources.json
+I0106 18:52:51.847285   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/events.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.847337   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authentication.k8s.io/v1/serverresources.json
+I0106 18:52:51.847493   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/certificates.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.847495   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authentication.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.848100   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/security.openshift.io/v1/serverresources.json
+I0106 18:52:51.847511   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiregistration.k8s.io/v1/serverresources.json
+I0106 18:52:51.847553   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/networking.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.847556   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiregistration.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.848369   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1alpha2/serverresources.json
+I0106 18:52:51.848385   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.847598   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/project.openshift.io/v1/serverresources.json
+I0106 18:52:51.848424   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/machine.openshift.io/v1beta1/serverresources.json
+I0106 18:52:51.847625   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.k8s.io/v1/serverresources.json
+I0106 18:52:51.848437   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1alpha1/serverresources.json
+I0106 18:52:51.847645   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/route.openshift.io/v1/serverresources.json
+I0106 18:52:51.847678   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v1/serverresources.json
+I0106 18:52:51.847731   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/networking.k8s.io/v1/serverresources.json
+I0106 18:52:51.847767   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1beta2/serverresources.json
+I0106 18:52:51.847770   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v2beta1/serverresources.json
+I0106 18:52:51.847764   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/oauth.openshift.io/v1/serverresources.json
+I0106 18:52:51.847827   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1/serverresources.json
+I0106 18:52:51.847837   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/policy/v1beta1/serverresources.json
+I0106 18:52:51.847847   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/storage.k8s.io/v1/serverresources.json
+I0106 18:52:51.847874   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/rbac.authorization.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.847899   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/packages.operators.coreos.com/v1/serverresources.json
+I0106 18:52:51.847897   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/batch/v1/serverresources.json
+I0106 18:52:51.847939   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v2beta2/serverresources.json
+I0106 18:52:51.847951   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1beta1/serverresources.json
+I0106 18:52:51.847973   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiextensions.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.847978   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/extensions/v1beta1/serverresources.json
+I0106 18:52:51.847999   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/v1/serverresources.json
+I0106 18:52:51.847987   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/template.openshift.io/v1/serverresources.json
+I0106 18:52:51.848051   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/cloudcredential.openshift.io/v1/serverresources.json
+I0106 18:52:51.848064   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.848074   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/coordination.k8s.io/v1/serverresources.json
+I0106 18:52:51.848077   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/storage.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.848074   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/rbac.authorization.k8s.io/v1/serverresources.json
+I0106 18:52:51.848084   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/admissionregistration.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.848089   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/imageregistry.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.848110   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/coordination.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.848109   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling.openshift.io/v1/serverresources.json
+I0106 18:52:51.848114   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operator.openshift.io/v1alpha1/serverresources.json
+I0106 18:52:51.848132   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/scheduling.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.848132   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/k8s.cni.cncf.io/v1/serverresources.json
+I0106 18:52:51.848143   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/scheduling.k8s.io/v1/serverresources.json
+I0106 18:52:51.848151   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/quota.openshift.io/v1/serverresources.json
+I0106 18:52:51.848187   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/user.openshift.io/v1/serverresources.json
+I0106 18:52:51.848205   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/ingress.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.848216   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling.openshift.io/v1beta1/serverresources.json
+I0106 18:52:51.848250   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v2/serverresources.json
+I0106 18:52:51.848261   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/node.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.848264   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/samples.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.848285   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps.openshift.io/v1/serverresources.json
+I0106 18:52:51.848299   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/monitoring.coreos.com/v1/serverresources.json
+I0106 18:52:51.848307   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/tuned.openshift.io/v1/serverresources.json
+I0106 18:52:51.848336   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/metal3.io/v1alpha1/serverresources.json
+I0106 18:52:51.848355   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/network.openshift.io/v1/serverresources.json
+I0106 18:52:51.848377   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1/serverresources.json
+I0106 18:52:51.848384   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/mongodb.com/v1/serverresources.json
+I0106 18:52:51.848383   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/machineconfiguration.openshift.io/v1/serverresources.json
+I0106 18:52:51.848436   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/healthchecking.openshift.io/v1alpha1/serverresources.json
+I0106 18:52:51.848446   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/config.openshift.io/v1/serverresources.json
+I0106 18:52:51.848439   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/console.openshift.io/v1/serverresources.json
+I0106 18:52:51.847643   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/image.openshift.io/v1/serverresources.json
+I0106 18:52:51.849082   79980 cached_discovery.go:113] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/servergroups.json
+I0106 18:52:51.849199   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/metrics.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.849634   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.openshift.io/v1/serverresources.json
+I0106 18:52:51.849911   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiextensions.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850000   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/networking.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850026   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/batch/v1beta1/serverresources.json
+I0106 18:52:51.850393   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiregistration.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850067   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/scheduling.k8s.io/v1/serverresources.json
+I0106 18:52:51.850119   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/networking.k8s.io/v1/serverresources.json
+I0106 18:52:51.850120   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apiregistration.k8s.io/v1/serverresources.json
+I0106 18:52:51.850182   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/rbac.authorization.k8s.io/v1/serverresources.json
+I0106 18:52:51.850947   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/machineconfiguration.openshift.io/v1/serverresources.json
+I0106 18:52:51.851026   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/machine.openshift.io/v1beta1/serverresources.json
+I0106 18:52:51.851055   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1/serverresources.json
+I0106 18:52:51.850188   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/build.openshift.io/v1/serverresources.json
+I0106 18:52:51.851076   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/healthchecking.openshift.io/v1alpha1/serverresources.json
+I0106 18:52:51.850200   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/storage.k8s.io/v1/serverresources.json
+I0106 18:52:51.851113   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1alpha1/serverresources.json
+I0106 18:52:51.850237   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/oauth.openshift.io/v1/serverresources.json
+I0106 18:52:51.850242   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/rbac.authorization.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850260   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/certificates.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850262   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/image.openshift.io/v1/serverresources.json
+I0106 18:52:51.850277   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/scheduling.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850304   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/policy/v1beta1/serverresources.json
+I0106 18:52:51.850358   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/coordination.k8s.io/v1/serverresources.json
+I0106 18:52:51.850371   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/admissionregistration.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850375   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/route.openshift.io/v1/serverresources.json
+I0106 18:52:51.850440   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/storage.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850454   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/quota.openshift.io/v1/serverresources.json
+I0106 18:52:51.850455   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/project.openshift.io/v1/serverresources.json
+I0106 18:52:51.850501   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/events.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850542   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authentication.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850560   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/template.openshift.io/v1/serverresources.json
+I0106 18:52:51.850563   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/node.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850583   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/packages.operators.coreos.com/v1/serverresources.json
+I0106 18:52:51.850588   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/user.openshift.io/v1/serverresources.json
+I0106 18:52:51.850599   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/coordination.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850652   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling.openshift.io/v1/serverresources.json
+I0106 18:52:51.850653   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/v1/serverresources.json
+I0106 18:52:51.850654   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/imageregistry.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.850667   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operator.openshift.io/v1alpha1/serverresources.json
+I0106 18:52:51.850654   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling.openshift.io/v1beta1/serverresources.json
+I0106 18:52:51.850667   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v2beta2/serverresources.json
+I0106 18:52:51.850675   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.k8s.io/v1beta1/serverresources.json
+I0106 18:52:51.850711   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/security.openshift.io/v1/serverresources.json
+I0106 18:52:51.850739   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/ingress.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.850759   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v1/serverresources.json
+I0106 18:52:51.850785   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/batch/v1/serverresources.json
+I0106 18:52:51.850787   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authentication.k8s.io/v1/serverresources.json
+I0106 18:52:51.850812   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1/serverresources.json
+I0106 18:52:51.850826   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/k8s.cni.cncf.io/v1/serverresources.json
+I0106 18:52:51.850834   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/extensions/v1beta1/serverresources.json
+I0106 18:52:51.850830   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1beta2/serverresources.json
+I0106 18:52:51.850861   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/authorization.k8s.io/v1/serverresources.json
+I0106 18:52:51.850870   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/cloudcredential.openshift.io/v1/serverresources.json
+I0106 18:52:51.850880   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps.openshift.io/v1/serverresources.json
+I0106 18:52:51.850912   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/samples.operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.850913   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v1alpha2/serverresources.json
+I0106 18:52:51.850921   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/monitoring.coreos.com/v1/serverresources.json
+I0106 18:52:51.850931   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/apps/v1beta1/serverresources.json
+I0106 18:52:51.850933   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/console.openshift.io/v1/serverresources.json
+I0106 18:52:51.850995   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/autoscaling/v2beta1/serverresources.json
+I0106 18:52:51.850990   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/metal3.io/v1alpha1/serverresources.json
+I0106 18:52:51.851010   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/tuned.openshift.io/v1/serverresources.json
+I0106 18:52:51.851014   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/network.openshift.io/v1/serverresources.json
+I0106 18:52:51.851034   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operators.coreos.com/v2/serverresources.json
+I0106 18:52:51.851034   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/mongodb.com/v1/serverresources.json
+I0106 18:52:51.851084   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/operator.openshift.io/v1/serverresources.json
+I0106 18:52:51.851118   79980 cached_discovery.go:70] returning cached discovery info from /Users/shep/.kube/cache/discovery/api.ocp4.bne_home.net_6443/config.openshift.io/v1/serverresources.json
+I0106 18:52:51.854020   79980 loader.go:359] Config loaded from file /Users/shep/.kube/config
+I0106 18:52:51.855452   79980 loader.go:359] Config loaded from file /Users/shep/.kube/config
+I0106 18:52:51.856842   79980 loader.go:359] Config loaded from file /Users/shep/.kube/config
+I0106 18:52:51.857070   79980 round_trippers.go:419] curl -k -v -XGET  -H "Accept: application/json, */*" -H "User-Agent: oc/v1.13.4+b4261e07ed (darwin/amd64) kubernetes/b4261e0" -H "Authorization: Bearer j6f9KSGI7pkcy6PYnZQ3zVeDE1V2QCuoHh6cEQSS1Hc" 'https://api.ocp4.bne-home.net:6443/api/v1/namespaces/unifi/pods/unifi-5bcbb76c94-n7l95/log'
+I0106 18:52:51.876836   79980 round_trippers.go:438] GET https://api.ocp4.bne-home.net:6443/api/v1/namespaces/unifi/pods/unifi-5bcbb76c94-n7l95/log 200 OK in 19 milliseconds
+I0106 18:52:51.876892   79980 round_trippers.go:444] Response Headers:
+I0106 18:52:51.876918   79980 round_trippers.go:447]     Content-Type: text/plain
+I0106 18:52:51.876933   79980 round_trippers.go:447]     Date: Mon, 06 Jan 2020 08:52:51 GMT
+I0106 18:52:51.876946   79980 round_trippers.go:447]     Audit-Id: cd4e09c7-6e84-4f0d-b3bb-52b13fcad7b2
+I0106 18:52:51.876957   79980 round_trippers.go:447]     Cache-Control: no-cache, private
+[s6-init] making user provided files available at /var/run/s6/etc...exited 0.
+[s6-init] ensuring user provided files have correct perms...exited 0.
+[fix-attrs.d] applying ownership & permissions fixes...
+[fix-attrs.d] done.
+[cont-init.d] executing container initialization scripts...
+[cont-init.d] 10-adduser: executing... 
+
+-------------------------------------
+          _         ()
+         | |  ___   _    __
+         | | / __| | |  /  \ 
+         | | \__ \ | | | () |
+         |_| |___/ |_|  \__/
+
+
+Brought to you by linuxserver.io
+We gratefully accept donations at:
+https://www.linuxserver.io/donate/
+-------------------------------------
+GID/UID
+-------------------------------------
+
+User uid:    1000
+User gid:    1000
+-------------------------------------
+
+[cont-init.d] 10-adduser: exited 0.
+[cont-init.d] 20-config: executing... 
+[cont-init.d] 20-config: exited 0.
+[cont-init.d] 30-keygen: executing... 
+
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore /config/data/keystore -destkeystore /config/data/keystore -deststoretype pkcs12".
+[cont-init.d] 30-keygen: exited 0.
+[cont-init.d] 99-custom-scripts: executing... 
+[custom-init] no custom files found exiting...
+[cont-init.d] 99-custom-scripts: exited 0.
+[cont-init.d] done.
+[services.d] starting services
+[services.d] done.
+org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+Exception in thread "Thread-14" org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration: Initialization of bean failed; nested exception is java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:584)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1455)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1310)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:802)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:143)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1143)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1455)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1310)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:855)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:802)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:143)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1143)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.DefaultLifecycleProcessor.getLifecycleBeans(DefaultLifecycleProcessor.java:289)
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:195)
+	at org.springframework.context.support.DefaultLifecycleProcessor.stop(DefaultLifecycleProcessor.java:116)
+	at org.springframework.context.support.AbstractApplicationContext.stop(AbstractApplicationContext.java:1331)
+	at com.ubnt.service.B.oÓ0000(Unknown Source)
+	at com.ubnt.ace.Launcher$2.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.getBeanFactory(AbstractRefreshableApplicationContext.java:177)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1212)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:340)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.detectMappedInterceptors(AbstractHandlerMapping.java:318)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.initApplicationContext(AbstractHandlerMapping.java:293)
+	at org.springframework.context.support.ApplicationObjectSupport.initApplicationContext(ApplicationObjectSupport.java:124)
+	at org.springframework.web.context.support.WebApplicationObjectSupport.initApplicationContext(WebApplicationObjectSupport.java:77)
+	at org.springframework.context.support.ApplicationObjectSupport.setApplicationContext(ApplicationObjectSupport.java:78)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.invokeAwareInterfaces(ApplicationContextAwareProcessor.java:120)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.postProcessBeforeInitialization(ApplicationContextAwareProcessor.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1737)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 45 more

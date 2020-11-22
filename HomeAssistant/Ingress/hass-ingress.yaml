@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/backend-protocol: "HTTP"
+  name: hass-ingress
+  namespace: hass
+spec:
+  rules:
+  - host: hass.k8s.bne-home.net
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: home-assistant-web
+          servicePort: 8123
