@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/ssl-passthrough: "true"
+  name: unifi-ingress
+  namespace: unifi
+spec:
+  rules:
+  - host: unifi.k8s.bne-home.net
+    http:
+      paths:
+      - backend:
+          serviceName: unifi
+          servicePort: 8443
+        path: /
+        pathType: ImplementationSpecific
