@@ -3,6 +3,7 @@ apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
   annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-cluster-issuer
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/configuration-snippet: |
       more_set_headers "Request-Id: $req_id";
@@ -38,4 +39,4 @@ spec:
   tls:
   - hosts:
     - bw.r3d3mpt10n.com
-    secretName: bitwarden-tls
+    secretName: bitwarden-cm-tls
