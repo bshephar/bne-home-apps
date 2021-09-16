@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: home-assistant
+  namespace: hass
+  labels:
+    app: home-assistant
+    version: v0
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: home-assistant
+  template:
+    metadata:
+      name: home-assistant
+      labels:
+        app: home-assistant
+    spec:
+      containers:
+      - name: home-assistant
+        image: "homeassistant/home-assistant:latest"
+        env:
+        - name: TZ
+          value: "Australia/Brisbane"
+        ports:
+        - containerPort: 8123
+          name: hass-web
+          protocol: TCP
+        volumeMounts:
+        - mountPath: "/config"
+          name: hass-config
+      volumes:
+      - name: hass-config
+        persistentVolumeClaim:
+          claimName: hass-pvc
+      nodeSelector:
+        kubernetes.io/arch: amd64
