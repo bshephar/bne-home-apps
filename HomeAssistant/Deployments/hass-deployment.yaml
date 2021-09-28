@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: home-assistant
-        image: "homeassistant/home-assistant:stable"
+        image: "homeassistant/home-assistant:latest"
         env:
         - name: TZ
           value: "Australia/Brisbane"
