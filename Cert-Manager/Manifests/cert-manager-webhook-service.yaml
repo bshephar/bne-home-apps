@@ -9,9 +9,6 @@ metadata:
   name: cert-manager-webhook
   namespace: cert-manager
 spec:
-  clusterIP: 10.233.54.113
-  clusterIPs:
-    - 10.233.54.113
   ipFamilies:
     - IPv4
   ipFamilyPolicy: SingleStack

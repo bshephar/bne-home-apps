@@ -8,6 +8,6 @@ spec:
   accessModes:
   - ReadWriteMany
   nfs: 
-    path: /openshift/unifi-dev
-    server: 192.168.1.7
+    path: /small/openshift/unifi-dev
+    server: 172.20.10.25
   persistentVolumeReclaimPolicy: Retain

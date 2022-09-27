@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: hass-pvc
+  name: mosquitto
 spec:
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 69Gi
+      storage: 9Gi

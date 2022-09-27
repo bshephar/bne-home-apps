@@ -9,9 +9,6 @@ metadata:
   name: cert-manager
   namespace: cert-manager
 spec:
-  clusterIP: 10.233.17.146
-  clusterIPs:
-    - 10.233.17.146
   ipFamilies:
     - IPv4
   ipFamilyPolicy: SingleStack

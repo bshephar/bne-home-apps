@@ -3,12 +3,11 @@ kind: Ingress
 metadata:
   name: unifi-ingress
   annotations:
-    cert-manager.io/cluster-issuer: selfsigned-cluster-issuer
+    cert-manager.io/cluster-issuer: letsencrypt-cluster-issuer
     ingress.kubernetes.io/ssl-redirect: "true"
-    nginx.ingress.kubernetes.io/ssl-passthrough: "true"
-    ingress.kubernetes.io/backend-protocol: "HTTPS"
+    haproxy-ingress.github.io/ssl-passthrough: "true"
 spec:
-  ingressClassName: nginx
+  ingressClassName: haproxy
   rules:
   - host: "unifi.k8s.bne-home.net"
     http:
@@ -23,4 +22,4 @@ spec:
   tls:
   - hosts:
     - unifi.k8s.bne-home.net
-    secretName: unifi-tls
+    secretName: unifi-tls-le

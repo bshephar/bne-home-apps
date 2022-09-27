@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: hass-data-pv
+  name: mosquitto-data-pv
 spec:
   capacity:
-    storage: 70Gi 
+    storage: 30Gi 
   accessModes:
   - ReadWriteOnce 
   nfs: 
-    path: /small/openshift/hass
+    path: /small/openshift/mosquitto-data
     server: 172.20.10.25
   persistentVolumeReclaimPolicy: Retain

@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: unifi-notify-ingress-internal
+spec:
+  ingressClassName: haproxy
+  rules:
+  - host: "unifi-notify.k8s.bne-internal.net"
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: unifi
+            port:
+              number: 8080
