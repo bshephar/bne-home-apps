@@ -9,5 +9,5 @@ spec:
   - ReadWriteOnce 
   nfs: 
     path: /small/openshift/mosquitto-data
-    server: 172.20.10.25
+    server: 192.168.1.7
   persistentVolumeReclaimPolicy: Retain

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: openstack-ovnnb-pv
+spec:
+  capacity:
+    storage: 30Gi
+  accessModes:
+  - ReadWriteOnce
+  claimRef:
+     namespace: openstack
+     name: ovndbcluster-nb-etc-ovn-ovsdbserver-nb-0
+  nfs: 
+    path: /small/openshift/openstack-ovn-nb
+    server: 192.168.1.7
+  persistentVolumeReclaimPolicy: Retain

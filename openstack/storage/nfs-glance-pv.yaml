@@ -1,16 +1,16 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: unifi-pv
+  name: openstack-glance
 spec:
   capacity:
-    storage: 20Gi
+    storage: 10Gi
   accessModes:
   - ReadWriteMany
   claimRef:
-     namespace: unifi
-     name: unifi-pvc
+     namespace: openstack
+     name: glance
   nfs: 
-    path: /small/openshift/unifi-dev
+    path: /small/openshift/openstack-glance
     server: 192.168.1.7
   persistentVolumeReclaimPolicy: Retain

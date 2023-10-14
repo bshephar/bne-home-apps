@@ -17,9 +17,10 @@ spec:
       labels:
         app: home-assistant
     spec:
+      serviceAccountName: hass
       containers:
       - name: home-assistant
-        image: "homeassistant/home-assistant:latest"
+        image: "docker.io/homeassistant/home-assistant:latest"
         env:
         - name: TZ
           value: "Australia/Brisbane"

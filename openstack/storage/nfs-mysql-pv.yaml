@@ -1,16 +1,16 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: unifi-pv
+  name: openstack-mysql-pv
 spec:
   capacity:
-    storage: 20Gi
+    storage: 30Gi
   accessModes:
-  - ReadWriteMany
+  - ReadWriteOnce
   claimRef:
-     namespace: unifi
-     name: unifi-pvc
+     namespace: openstack
+     name: mariadb-openstack
   nfs: 
-    path: /small/openshift/unifi-dev
+    path: /small/openshift/openstack-mysql
     server: 192.168.1.7
   persistentVolumeReclaimPolicy: Retain

@@ -15,9 +15,10 @@ spec:
       labels:
         app: unifi
     spec:
+      serviceAccountName: unifi-sa
       containers:
       - name: unifi
-        image: "linuxserver/unifi-controller"
+        image: "lscr.io/linuxserver/unifi-controller:latest"
         env:
         - name: BASEDIR
           value: /usr/lib/unifi
@@ -27,8 +28,6 @@ spec:
           value: /var/run/unifi
         - name: LOGDIR
           value: /var/log/unifi
-        - name: MEM_LIMIT
-          value: "1024M"
         - name: PGUID
           value: "1000"
         - name: PUID

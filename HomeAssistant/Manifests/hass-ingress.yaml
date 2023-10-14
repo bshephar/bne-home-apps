@@ -7,19 +7,19 @@ metadata:
   name: hass-ingress
   namespace: hass
 spec:
-  ingressClassName: haproxy
+  ingressClassName: openshift-default
   rules:
-  - host: hass.k8s.bne-home.net
-    http:
-      paths:
-      - backend:
-          service:
-            name: home-assistant-web
-            port:
-              number: 8123
-        path: /
-        pathType: Prefix
+    - host: hass.okd.bne-home.net
+      http:
+        paths:
+          - backend:
+              service:
+                name: home-assistant-web
+                port:
+                  number: 8123
+            path: /
+            pathType: Prefix
   tls:
-  - hosts:
-    - hass.k8s.bne-home.net
-    secretName: hass-tls-le
+    - hosts:
+        - hass.okd.bne-home.net
+      secretName: hass-tls-le
